@@ -1,9 +1,13 @@
-// const username = document.getElementById("fname").value;
-// const password = document.getElementById("lname").value;
-const submit = document.getElementById("submit-button");
 let myFunction = () => {
-    alert("heh heh bwomen");
-    
+    console.log("jaitn ");
+    if(document.getElementById('username').value=='jatinbisht2308@gmail.com' && document.getElementById('password').value== 'jatin2308')
+    {
+        alert('Aagya bsdk admin');
+    }
+    else{
+        alert('Aagya bsdk farji admin');
+    }
 };
-console.log("jatin");
-    console.log("bisht");
+// console.log(document.getElementById('username').value);
+//         console.log(document.getElementById('password').value);
+
